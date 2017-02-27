@@ -1,0 +1,39 @@
+{
+  "name": "time-anywhere",
+  "version": "1.0.0",
+  "description": "A node package to get the time from anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noelportugal/time-anywhere.git"
+  },
+  "keywords": [
+    "time",
+    "date",
+    "now",
+    "timezone",
+    "date",
+    "city",
+    "country"
+  ],
+  "author": "Noel Portugal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noelportugal/time-anywhere/issues"
+  },
+  "homepage": "https://github.com/noelportugal/time-anywhere#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.11",
+    "request": "^2.79.0",
+    "timezones.json": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.1.2"
+  }
+}
